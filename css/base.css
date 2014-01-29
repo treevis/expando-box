@@ -1,0 +1,170 @@
+body {
+    background: #fff;
+    color: #292929;
+    font: 100%/1.5 sans-serif;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 60em;
+}
+
+h1, .h1 {
+    font-size: 1em;
+}
+h2, .h2 {
+
+}
+h3, .h3 {
+
+}
+h4, .h4 {
+
+}
+h5, .h5 {
+
+}
+h6, .h6 {
+
+}
+
+.serif {
+    font-family: 'serifa std', serifa, serif;
+}
+
+.sans-serif {
+    font-family: helmet, freesans, 'helvetica neue', arial, helvetica, sans-serif;
+}
+
+/* Colors */
+/* Threespot Colors
+Blue #1f60b7 rgb(31,96,183)
+Purple #971dae rgb(151,29,174)
+Pink #de0086 rgb(222,0,134)
+Red #e22f33 rgb(226,47,51)
+Orange #f1711a rgb(241,113,26)
+Yellow #f0b336 rgb(240,179,54)
+Chartreuse #a9da1c rgb(169,218,28)
+Green #2ba352 rgb(43,163,82)
+Teal #0cb5c0 rgb(12,181,192)
+Light Gray #afb8c0 rgb(175,184,192)
+Gray #7f868c rgb(127,134,140)
+Dark Gray #404347 rgb(64,67,71)
+*/
+.blue {
+    color: #1f60b7;
+}
+.blue-bg {
+    background-color: #1f60b7;
+}
+.blue-border {
+    border-color: #1f60b7
+}
+
+.purple {
+    color: #971dae;
+}
+.purple-bg {
+    background-color: #971dae;
+}
+.purple-border {
+    border-color: #971dae;
+}
+
+.pink {
+    color: #de0086;
+}
+.pink-bg {
+    background-color: #de0086;
+}
+.pink-border {
+    border-color: #de0086;
+}
+
+.red {
+    color: #e22f33;
+}
+.red-bg {
+    background-color: #e22f33;
+}
+.red-border {
+    border-color: #e22f33;
+}
+
+.orange {
+    color: #f1711a;
+}
+.orange-bg {
+    background-color: #f1711a;
+}
+.orange-border {
+    border-color: #f1711a;
+}
+
+.yellow {
+    color: #f0b336;
+}
+.yellow-bg {
+    background-color: #f0b336;
+}
+.yellow-border {
+    border-color: #f0b336;
+}
+
+.chartreuse {
+    color: #a9da1c;
+}
+.chartreuse-bg {
+    background-color: #a9da1c;
+}
+.chartreuse-border {
+    border-color: #a9da1c;
+}
+
+.green {
+    color: #2ba352;
+}
+.green-bg {
+    background-color: #2ba352;
+}
+.green-border {
+    border-color: #2ba352;
+}
+
+.teal {
+    color: #0cb5c0;
+}
+.teal-bg {
+    background-color: #0cb5c0;
+}
+.teal-border {
+    border-color: #0cb5c0;
+}
+
+.gray {
+    color: #7f868c;
+}
+.gray-bg {
+    background-color: #7f868c;
+}
+.gray-border {
+    border-color: #7f868c;
+}
+
+.gray-lt {
+    color: #afb8c0;
+}
+.gray-lt-bg {
+    background-color: #afb8c0;
+}
+.gray-lt-border {
+    border-color: #afb8c0;
+}
+
+.gray-dk {
+    color: #404347;
+}
+.gray-dk-bg {
+    background-color: #404347;
+}
+.gray-dk-border {
+    border-color: #404347;
+}

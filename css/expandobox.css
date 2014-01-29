@@ -1,0 +1,100 @@
+.container {
+    overflow: hidden;
+    position: relative;
+}
+
+.box {
+    /* 300x169 */
+    border: 1px solid #afb8c0;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #7f868c;
+    float: left;
+    font-family: 'serifa std', serifa, serif;
+    height: 10.5625em;
+    margin: 0 3.125% 1.875em 0; /* 30px */
+    padding: 1em 0.25em;
+    text-align: center;
+    text-decoration: none;
+    width: 31.25%; /* 300px */
+}
+.box:nth-child(3n) {
+    margin-right: 0;
+}
+.box:hover,
+.box:focus {
+    border-color: #de0086;
+    color: #de0086;
+}
+.box:hover:nth-child(2n) {
+    border-color: #f1711a;
+    color: #f1711a;
+}
+.box:hover:nth-child(4n) {
+    border-color: #1f60b7;
+    color: #1f60b7;
+}
+.box:hover:nth-child(5n) {
+    border-color: #2ba352;
+    color: #2ba352;
+}
+.view-all {
+    bottom: 0;
+    color: rgb(222,0,134);
+    cursor: default;
+    left: 68.75%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 24.875em;
+    -moz-transition: all .25s;
+    -o-transition: all .25s;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+}
+.view-all:hover,
+.view-all:focus {
+    background: rgb(222,0,134);
+    background: rgba(222,0,134,.95);
+    color: #fff;
+    height: 35.4375em;
+    left: 0;
+    text-align: left;
+    text-decoration: none;
+    -moz-transition: background-color color 0s step-start, height left top width 0.5s ease-out;
+    -o-transition: background-color color 0s step-start, height left top width 0.5s ease-out;
+    -webkit-transition: background-color color 0s step-start, height left top width 0.5s ease-out;
+    transition: background-color color 0s step-start, height left top width 0.5s ease-out;
+    top: 0;
+    width: 100%;
+}
+
+#all-stuff {
+    display: none;
+    font-family: sans-serif;
+    font-size: 87.5%;
+    padding-left: 1em;
+}
+
+.view-all:hover #all-stuff,
+.view-all:focus #all-stuff {
+    display: block;
+}
+.view-all:hover > span,
+.view-all:hover #all-stuff,
+.view-all:focus > span,
+.view-all:focus #all-stuff {
+    margin: 0 0 1em;
+}
+.view-all:hover > span,
+.view-all:focus > span {
+    font-size: 2em;
+    line-height: 2;
+    margin-left: 0.5em;
+    padding-top: 1em;
+}
+.view-all:hover > span span,
+.view-all:focus > span span {
+    display: none;
+}
